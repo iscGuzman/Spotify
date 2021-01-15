@@ -1,0 +1,27 @@
+p {
+    color: white;
+}
+
+.loading {
+    animation: rotate 3s infinite;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    width: 250px;
+    height: 250px;
+}
+
+@keyframes rotate {
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-360deg);
+    }
+}

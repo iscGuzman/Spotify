@@ -1,0 +1,22 @@
+h3 {
+    color: white;
+}
+
+p,
+a {
+    color: greenyellow;
+}
+
+tr {
+    border-top: solid;
+    border-bottom: solid;
+    border-color: white;
+}
+
+table {
+    color: greenyellow;
+}
+
+thead {
+    color: white;
+}
